@@ -44,3 +44,9 @@ Backend:
 Frontend:  
 - Pnetlab is built using React. You can find the source code in the folder: /opt/unetlab/html/store/resources.
 - For rebuild from folder /opt/unetlab/html/store: run "npm run watch" for watch mode and "npm run production" for production.
+
+
+<b>3. EVE-NG Feature Parity + Ubuntu 24.04 Default</b>
+
+- A parity mapping document is provided at `docs_eve_ng_feature_parity.md`.
+- The default Linux node template has been updated to an Ubuntu 24.04 baseline in `templates/linux.yml` and `templates/newimage.yml`.

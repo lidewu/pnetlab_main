@@ -25,17 +25,17 @@
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ---
 type: qemu
-description: Linux
-name: Linux
+description: Ubuntu 24.04 LTS
+name: Ubuntu 24.04
 cpulimit: 1
 icon: Server.png
 cpu: 2
 ram: 4096
 ethernet: 1
-console: vnc
+console: telnet
 shutdown: 1
 qemu_arch: x86_64
-qemu_version: 2.12.0
+qemu_version: 8.2.0
 qemu_nic: virtio-net-pci
-qemu_options: -machine type=pc,accel=kvm -vga virtio -usbdevice tablet -boot order=cd
+qemu_options: -machine type=q35,accel=kvm -cpu host -vga none -nographic -boot order=cd
 ...
